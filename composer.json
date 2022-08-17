@@ -10,7 +10,7 @@
     ],    "require": {
         "composer": "^2.3.10 || 2.4.x-dev",
         "composer-plugin-api": "^2.3.0",
-        "composer/satis": "3.0.x-dev"
+        "composer/satis": "3.0.x-dev || dev-main"
     },
     "license": "MIT",
     "autoload": {
