@@ -12,6 +12,12 @@ class CommandProvider implements CommandProviderCapability
 {
     public function getCommands()
     {
-        return array(new ConfigureSatis);
+        return [
+            new ConfigureSatis, 
+            new AddCommandProxy, 
+            new BuildCommandProxy, 
+            new PurgeCommandProxy, 
+            new InitCommandProxy
+        ];
     }
 }
