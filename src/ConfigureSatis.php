@@ -2,8 +2,10 @@
 declare(strict_types=1);
 
 namespace RalfLang\SatisPlugin;
-
-class Command extends BaseCommand
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
+use Composer\Command\BaseCommand;
+class ConfigureSatis extends BaseCommand
 {
     protected function configure(): void
     {
